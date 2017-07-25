@@ -541,7 +541,7 @@ a:focus, a:active {
 }
 
 .footer {
-  background-color: white;
+  background-color: #151515;
   line-height: 20px;
 }
 .footer nav > ul {
