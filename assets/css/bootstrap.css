@@ -1409,8 +1409,7 @@ pre code {
   }
 }
 .container-fluid {
-  padding-right: 30px;
-  padding-left: 30px;
+  padding: 150px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1425,7 +1424,7 @@ pre code {
   padding-left: 15px;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  float: left;
+float: left;
 }
 .col-xs-12 {
   width: 100%;
@@ -1771,6 +1770,9 @@ pre code {
   }
   .col-md-3 {
     width: 25%;
+    padding-right: 0px;
+    padding-left: 0px;
+
   }
   .col-md-2 {
     width: 16.66666667%;
@@ -4194,7 +4196,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #292d2b;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {

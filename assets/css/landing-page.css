@@ -417,13 +417,13 @@ a:focus, a:active {
 }
 
 .section {
-  padding: 30px 0;
+  padding: 21px 0;
   position: relative;
-  background-color: #151515;
+  background-color: #292d2b;
 }
 
 .section-gray {
-  background-color: #151515;
+  background-color: #292d2b;
 }
 
 .section-white {
@@ -436,7 +436,7 @@ a:focus, a:active {
 }
 .navbar .navbar-brand {
   font-weight: 600;
-  margin: 5px 0px;
+  margin: 15px 0px;
   padding: 20px 15px;
   font-size: 20px;
 }
@@ -542,7 +542,7 @@ a:focus, a:active {
 }
 
 .footer {
-  background-color: #151515;
+  background-color: #292d2b;
   line-height: 20px;
 }
 .footer nav > ul {
@@ -849,8 +849,8 @@ a:focus, a:active {
     line-height: 20px;
     float: left;
     margin-left: 10px;
-    margin-top: 5px;
-    width: 50px;
+    margin-top: 15px;
+    width: 150px;
     height: 50px;
 }
 .logo-container{
@@ -1257,7 +1257,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     }
 
    .landing-page .section-testimonial .carousel-inner .item img{
-      width: 100%;
+      width: auto;
+      max-height: 500px;
       height: auto;
       display: block;
    }
